@@ -93,12 +93,12 @@ function draw() {
       trex.velocityY = -12;
       touches = [];
       jumpSound.play();
-      if(score>0 && score%100 === 0){
-        checkPointSound.play() 
-     }
+    
 
     }
-
+  if(score>0 && score%100 === 0){
+        checkPointSound.play() 
+     }
     console.log(height);
     trex.velocityY = trex.velocityY + 0.8;
 
